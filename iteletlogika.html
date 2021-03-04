@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/iteletlogika.css" media="screen">
+    <title>Ítéletlogika kalkulátor</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <ul>
+                <caption>Szimbólumok</caption>
+                <li>() - zárójel</li>
+                <li>! - negáció</li>
+                <li>& - konjunkció</li>
+                <li>| - diszjunkció</li>
+                <li>> - implikáció</li>
+                <li>A..Z - ítéletváltozók (csak angol abc nagybetűi)</li>
+            </ul>
+
+            <hr>
+            
+            <input type="text" id="logicInput">
+            <button id="submitButton">Mehet</button>
+            <br>
+            <span id="invalidInputText" style="display:none;"><b>Szemantikailaig helytelen bemenet!</b></span>
+            
+            <br>
+
+            <caption>Változók</caption><br>
+            <i>Kattints az érték változtatásához!</i>
+            <ul id="variablesList">
+            </ul>
+
+            <span style="font-size:150%;" id="evaluationSpan"></span>
+            <ul id="evaluationSteps"></ul>
+        </div>
+
+
+
+        <script type="text/javascript" src="assets/js/iteletlogika.js"></script>
+    </div>
+</body>
+</html>

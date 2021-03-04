@@ -1,0 +1,43 @@
+html {
+    background-color: #203B5C;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    border: 1px solid #d1e3fa;
+    color: #d1e3fa;
+    background-color: #3C4A5C;
+    border-radius: 5px;
+}
+
+button {
+    margin:10px;
+    border: 1px solid #d1e3fa;
+    color: #d1e3fa;
+    background-color: #3C4A5C;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: #607591;
+}
+
+input {
+    color: #d1e3fa;
+    background-color: #3C4A5C;
+}
+
+ul {
+    color: #d1e3fa;
+}
+
+#variablesList li {
+    display:inline-block;
+    margin-right: 10px;
+    padding-left:10px;
+    padding-right:10px;
+
+    border: 1px solid #d1e3fa;
+}
